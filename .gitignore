@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.sites-runtime/
+.openai/
+*.tar.gz
+*.zip
+Thumbs.db
+.DS_Store

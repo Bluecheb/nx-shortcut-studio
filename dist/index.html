@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#14152c">
+  <title>NX Shortcut Studio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314152c'/%3E%3Crect x='9' y='12' width='46' height='40' rx='8' fill='%23bdb7ff'/%3E%3Cpath d='M19 39V25l13 14V25m13 0v14' fill='none' stroke='%2314152c' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="dialog.css">
+  <link rel="stylesheet" href="library.css">
+  <link rel="stylesheet" href="swap.css">
+  <link rel="stylesheet" href="controls.css">
+  <link rel="stylesheet" href="dragdrop.css">
+  <link rel="stylesheet" href="radial-fix.css">
+  <link rel="stylesheet" href="mode-switch.css">
+  <link rel="stylesheet" href="library-mode.css">
+  <link rel="stylesheet" href="role-visibility.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-icon">NX</span><div><strong>Shortcut Studio</strong><small>Designcenter NX 2606 · Modeling</small></div></div>
+      <div class="actions"><button id="importBtn" class="subtle">Import layout</button><button id="exportJsonBtn" class="subtle">Export layout</button><button id="exportMtxBtn" class="primary">Export Modeling + Sketching .mtx</button></div>
+    </header>
+    <section class="intro"><div><span class="eyebrow">KEYBOARD WORKSPACE</span><h1>Make every key feel like yours.</h1><p>Press a shortcut to see its NX command. Click any assignment to record a new key or combination.</p></div><div class="status" id="status"><span class="status-light"></span><span>Listening for keys in this tab</span></div></section>
+    <section class="live-panel" aria-live="polite"><div><span class="eyebrow">NOW PRESSED</span><div id="liveKeys" class="live-keys">Press any key</div></div><div><span class="eyebrow">NX COMMAND</span><div id="liveCommand" class="live-command">Waiting for input</div></div></section>
+    <section class="keyboard-panel"><div class="section-title"><div><h2>Keyboard map</h2><p>Hold Shift, Ctrl, or Alt to preview combinations.</p></div><div class="keyboard-controls"><label class="mode-switch"><span>Modeling</span><input id="modeToggle" type="checkbox" role="switch" aria-label="Switch between Modeling and Sketching keyboard maps"><i></i><span>Sketching</span></label><div class="legend"><span><i class="dot assigned"></i> Assigned</span><span><i class="dot active"></i> Pressed</span></div></div></div><div id="modeBanner" class="mode-banner">Modeling shortcuts</div><div id="keyboard" class="keyboard" aria-label="Interactive keyboard"></div></section>
+    <section class="library-panel"><div class="section-title"><div><h2>NX command library</h2><p>Browse by category or search every installed NX 2606 command code.</p></div><div class="library-head-controls"><label class="mode-switch"><span>Modeling</span><input id="libraryModeToggle" type="checkbox" role="switch" aria-label="Choose whether library commands are added to Modeling or Sketching"><i></i><span>Sketching</span></label><span id="libraryCount" class="library-count">Loading commands…</span></div></div><div class="library-tools"><select id="categoryFilter" aria-label="Command category"><option value="">All categories</option></select><input id="librarySearch" type="search" placeholder="Search all commands or codes, e.g. extrude or UG_CURVE_COMBINE" autocomplete="off" aria-label="Search all NX commands"></div><div id="libraryDestination" class="mode-banner">Adding to Modeling keyboard</div><div id="libraryResults" class="library-results"></div></section>
+    <section class="mouse-panel"><div class="section-title"><div><h2>Mouse controls</h2><p>Plan commands for mouse buttons and wheel gestures.</p></div><span class="library-count">Included in layout export</span></div><div id="mouseMappings" class="mouse-mappings"></div></section>
+    <section class="radial-panel"><div class="section-title"><div><h2>Circular menus</h2><p>Map eight positions for each NX radial menu.</p></div><span class="library-count">Click a segment to assign</span></div><div id="radialMenus" class="radial-menus"></div></section>
+    <section class="role-panel"><div class="section-title"><div><span class="eyebrow">ROLE APPEARANCE</span><h2>Visible NX tabs</h2><p>Choose which top ribbon and sidebar tabs remain visible when this role is loaded.</p></div><label class="role-scope">NX workspace<select id="visibilityScope" aria-label="NX workspace"><option value="UG_APP_MODELING">Modeling</option><option value="UG_APP_SKETCH_TASK">Sketching</option><option value="UG_APP_NOPART">No Part</option></select></label></div><div class="visibility-columns"><article class="visibility-card"><div class="visibility-heading"><div><h3>Top ribbon tabs</h3><p id="ribbonVisibilityCount"></p></div><div class="mini-actions"><button type="button" data-visibility-action="show" data-visibility-kind="ribbon">Show all</button><button type="button" data-visibility-action="hide" data-visibility-kind="ribbon">Hide all</button><button type="button" data-visibility-action="reset" data-visibility-kind="ribbon">Role default</button></div></div><input id="ribbonVisibilitySearch" class="visibility-search" type="search" placeholder="Filter ribbon tabs" aria-label="Filter ribbon tabs"><div id="ribbonVisibility" class="visibility-list"></div></article><article class="visibility-card"><div class="visibility-heading"><div><h3>Sidebar tabs</h3><p id="sideVisibilityCount"></p></div><div class="mini-actions"><button type="button" data-visibility-action="show" data-visibility-kind="side">Show all</button><button type="button" data-visibility-action="hide" data-visibility-kind="side">Hide all</button><button type="button" data-visibility-action="reset" data-visibility-kind="side">Role default</button></div></div><input id="sideVisibilitySearch" class="visibility-search" type="search" placeholder="Filter sidebar tabs" aria-label="Filter sidebar tabs"><div id="sideVisibility" class="visibility-list"></div></article></div></section>
+    <section class="journal-panel"><div class="section-title"><div><span class="eyebrow">CUSTOM SKETCH ACTION</span><h2>Create Reference Geometry toggle</h2><p>NX exposes this as a session preference instead of a stock shortcut command. The included journal flips it on or off and confirms the new state.</p></div><button id="downloadJournalBtn" class="subtle">Download NX journal</button></div><div class="journal-setup"><div><strong>After registering the journal as a user-defined NX command</strong><span>Enter the resulting command ID here, then add it to the Sketching keyboard and record any shortcut.</span></div><label>Registered command ID<input id="journalCommandId" value="NX_SHORTCUT_STUDIO_TOGGLE_REFERENCE_GEOMETRY" spellcheck="false"></label><button id="addJournalCommandBtn" class="primary">Add to Sketching shortcuts</button></div><p class="journal-note">The role exporter can bind the command after NX knows its ID. The journal and setup notes are also included beside this website.</p></section>
+    <section class="bindings-panel"><div class="section-title"><div><h2>Assignments</h2><p>Click a shortcut to record a replacement. Changes save in this browser.</p></div><button id="resetBtn" class="text-button">Reset to starter layout</button></div><div id="bindings" class="bindings"></div><button id="addBtn" class="add-button">+ Add command</button></section>
+    <section class="bindings-panel sketch-panel"><div class="section-title"><div><h2>Sketching mode shortcuts</h2><p>Assignments intended for use while you are editing an NX sketch.</p></div><span id="sketchCount" class="library-count"></span></div><div id="sketchBindings" class="bindings"></div><button id="addSketchBtn" class="add-button">+ Add sketch command</button></section>
+    <footer><span id="count"></span><span>Right-click hold wheel stays unchanged · Caps Lock → Enter requires a separate helper</span></footer>
+  </main>
+  <input id="importFile" type="file" accept=".json,application/json" hidden>
+  <dialog id="commandDialog" class="command-dialog"><div class="dialog-head"><div><h2 id="pickerTitle">Add NX command</h2><p>Search installed NX 2606 command codes. Names are inferred from command IDs.</p></div><button id="closeDialog" aria-label="Close" class="remove">×</button></div><input id="commandSearch" type="search" placeholder="Search command name or UG_ code" autocomplete="off" aria-label="Search commands"><div id="commandResults" class="command-results"></div></dialog>
+  <dialog id="swapDialog" class="swap-dialog"><h2>Shortcut already assigned</h2><p id="swapMessage"></p><div class="swap-actions"><button id="cancelSwap" class="subtle">Keep current keys</button><button id="confirmSwap" class="primary">Swap shortcuts</button></div></dialog>
+  <script src="commands-data.js"></script>
+  <script src="role-data.js"></script>
+  <script src="tab-details.js"></script>
+  <script src="role-visibility.js?v=2"></script>
+  <script src="journal-controls.js"></script>
+  <script src="app.js?v=10"></script>
+  <script src="role-tools.js"></script>
+</body>
+</html>

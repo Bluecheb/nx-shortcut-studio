@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NX_PROFILES name="WORKSPACE_09_14_2026_22_27_48_616434788" title="NX Shortcut Studio Base">
+    <Description></Description>
+    <Profile name="UG_APP_NOPART">
+        <Layout>
+            <ActionLists>
+                <ActionList name="rbn_analyze.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="45" y="92"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_application.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="55" y="102"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_clouddm.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_curves.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="85" y="132"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_developer.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_display.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="105" y="152"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_internal.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tc_cloud.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tools.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visualization.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="145" y="192"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_assemblies.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_pmi.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_order_center.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_nopart_home.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_assy_async_load.stb" type="scenebar">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="62" y="53"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+            </ActionLists>
+        </Layout>
+    </Profile>
+    <Profile name="UG_APP_MODELING">
+        <Layout>
+            <ActionLists>
+                <ActionList name="rbn_coatings.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_composites.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="34" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_eclass_standard.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="33" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_fabricmodeler.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="35" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_inspector.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="36" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_kd_packaging.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="40" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_masszones.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_cfddesigner.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_designspaceexplorer.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="23" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="22" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_join_struct.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="24" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_livesim.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_nesting.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="38" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_plastic_designer.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="28" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_simplifyapp.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_sustainability.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="37" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_billofprocess.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="29" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_assy_async_load.stb" type="scenebar">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="62" y="260"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_analyze.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_application.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="27" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_clouddm.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_curves.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_developer.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_display.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_internal.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="41" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tc_cloud.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tools.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visualization.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="42" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_assemblies.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_pmi.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_design_for_additive_manufacturing.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_industry.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="25" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_polygon_modeling.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_reverse_engineering.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_order_center.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="39" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_am_homogenization_modl.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="26" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_home.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_surface.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="30" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="31" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="32" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_selection_intent.stb" type="scenebar">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="72" y="270"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_object_display_context_tab.crb" type="ribbontab">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="542" y="331"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="-1" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+            </ActionLists>
+        </Layout>
+    </Profile>
+    <Profile name="UG_APP_SKETCH_TASK">
+        <Content mode="edit">
+            <Actions>
+                <Action name="UG_SKETCH_LINE_BY_TWO_POINTS" type="button">
+                    <Accelerators>
+                        <Accel name="Q"/>
+                    </Accelerators>
+                </Action>
+            </Actions>
+        </Content>
+        <Layout>
+            <ActionLists>
+                <ActionList name="rbn_selection_intent.stb" type="scenebar">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="45" y="233"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_sketch_main.stb" type="scenebar">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="552" y="341"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_analyze.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_application.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_clouddm.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_curves.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_developer.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_display.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_internal.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tc_cloud.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tools.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visualization.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_assemblies.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_pmi.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_sketch_te_home.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+            </ActionLists>
+        </Layout>
+    </Profile>
+    <Repository>
+        <Content mode="edit">
+            <Actions>
+                <Action name="UG_CREATE_SKETCH" type="button">
+                    <Accelerators>
+                        <Accel name="S"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_EXTRUDED_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="D"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_BLEND_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="F"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_HOLE_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="A"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_REVOLVED_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="E"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_CHAMFER_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="Q"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_CURVE_PROJECT" type="button">
+                    <Accelerators>
+                        <Accel name="R"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_CURVE_COMBINE" type="button">
+                    <Accelerators>
+                        <Accel name="C"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_INFO_GEOMETRIC_MEASUREMENT" type="button">
+                    <Accelerators>
+                        <Accel name="V"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_VIEW_FIT" type="button">
+                    <Accelerators>
+                        <Accel name="W"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_UNITE_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="X"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_SUBTRACT_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="Z"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_PATTERNFEATURE_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="G"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_MODELING_MIRRORFEATURE_FEATURE" type="button">
+                    <Accelerators>
+                        <Accel name="T"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_VIEW_POPUP_ORIENT_TOP" type="button">
+                    <Accelerators>
+                        <Accel name="Shift+W"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_VIEW_POPUP_ORIENT_LEFT" type="button">
+                    <Accelerators>
+                        <Accel name="Shift+A"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_VIEW_POPUP_ORIENT_FRONT" type="button">
+                    <Accelerators>
+                        <Accel name="Shift+S"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_VIEW_POPUP_ORIENT_RIGHT" type="button">
+                    <Accelerators>
+                        <Accel name="Shift+D"/>
+                    </Accelerators>
+                </Action>
+                <Action name="UG_VIEW_POPUP_ORIENT_TFRISO" type="button">
+                    <Accelerators>
+                        <Accel name="Shift+Q"/>
+                    </Accelerators>
+                </Action>
+            </Actions>
+        </Content>
+    </Repository>
+    <Preferences>
+        <Setting active="0" name="Session"/>
+        <Setting monitorDiagonal="22" name="TouchMode" numericTouchPad="1" radialTouchPad="1"/>
+    </Preferences>
+    <SessionSettings>
+        <Setting name="RibbonMinimized" ribbonFullscreenMinimized="0" ribbonMinimized="0"/>
+        <Setting enforceGalleryStyle="0" enforceGalleryStyleFullScreen="-1" name="MiscRibbon" useSlimRibbonStyle="0" useSlimRibbonStyleInFullScreen="-1"/>
+        <Setting name="Tooltips" showScreenMessages="1" showScreenMessagesOnDialog="1" showScreenTips="1" showShortcutKeysInScreenTips="1"/>
+        <Setting defaultModeSetup="1" name="UserInterfaceMode"/>
+        <Setting name="Ribbon" ribbonDocked="1">
+            <RibbonManager horzMarker="5" posX="-1" posY="-1" stripStyle="0" vertMarker="4" width="1200"/>
+        </Setting>
+        <Setting fullScreenOption="1" fullScreenSetup="0" name="FullScreen" ribbonFullScreenOption="0" ribbonFullScreenSetup="0">
+            <ToolbarManager alwaysTextBelow="1" floating="0" horzMarker="5" isExpanded="1" posX="-1" posY="-1" stripStyle="0" vertMarker="4" width="1200"/>
+        </Setting>
+        <Setting name="SelectionBar">
+            <Mode alwaysTextBelow="0" name="General" pos="0" showMiniBar="1" visibility="1"/>
+            <Mode alwaysTextBelow="0" name="FullScreen" pos="0" showMiniBar="1" visibility="0"/>
+            <Mode alwaysTextBelow="0" name="Ribbon" pos="0" showMiniBar="1" visibility="1"/>
+            <Mode alwaysTextBelow="0" name="RibbonFullscreen" pos="0" showMiniBar="1" visibility="1"/>
+        </Setting>
+        <Setting name="ShortcutToolbar">
+            <Mode name="General" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+            <Mode name="FullScreen" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+            <Mode name="Ribbon" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+            <Mode name="RibbonFullscreen" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+        </Setting>
+        <Setting name="StatusBar">
+            <Mode name="General" pos="1" showCueTooltips="1" visibility="1"/>
+            <Mode name="FullScreen" pos="1" showCueTooltips="1" visibility="1"/>
+            <Mode name="Ribbon" pos="1" showCueTooltips="1" visibility="1"/>
+            <Mode name="RibbonFullscreen" pos="1" showCueTooltips="1" visibility="0"/>
+        </Setting>
+        <Setting autoFlyout="1" dockOnSecondMonitor="0" dockSide="1" name="ResourceBar" pinShown="1" pinned="1" pinnedWidth="397" useDocumentWindowOnly="0" useSecondMonitor="0" visible="1">
+            <Mode name="General" presentation="0"/>
+            <Mode name="FullScreen" presentation="1"/>
+            <Mode name="Ribbon" presentation="0"/>
+            <Mode name="RibbonFullScreen" presentation="1"/>
+            <Tab id="ANT" type="2">
+                <State app="ALP_CROSS_STATION_PROCESS_PLANNING_TASK" expanded="0" suppressed="1" width="-1"/>
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_LAYOUT_EDIT_IN_ISOLATION" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="CDPNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="CDRNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="CNAV" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="DESFEM_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ELECCOMPNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ELECCONNNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="FCNTLNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ION" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="KFNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="KRUNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MANT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MDFTNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MECHDES_RE" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MECHDES_RI" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MECHDES_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MOTION_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MTB" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MTC" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MoldNavViewManagerNav" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="NOTECTR" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ONT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="PARTNT" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="PICL" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="RUNNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="SEQNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="SFEM_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="SPPNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="TCNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::AssyUI::InterpartRelations::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::BoPUI::BOPNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CaeUI::APPPP::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CaeUI::LST::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::FeatureNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::NavigatorComparator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::OperationNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::SetupConfiguratorNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MBD::PMIQueryUI::Frame" type="2">
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MBD::UI::DataBrowser::Frame" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MotionDesignerUI::Nav::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MotionSimUI::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::ProcessModel::UI::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::RoutingUI::Electrical::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::RoutingUI::Mechanical::SpoolNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::SketchUI::Nav::SketchNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="APP_STRUCTUREDESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_DRAFTING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_LEGACY_TASK" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="NX_GADGET_AREA" type="4">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_DRAFTING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_LAYOUT_EDIT_IN_ISOLATION" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_LEGACY_TASK" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="BROWSER_1001" type="5">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="1" width="-1"/>
+            </Tab>
+            <Tab id="BROWSER_1020" type="5">
+                <State app="ALP_CROSS_STATION_PROCESS_PLANNING_TASK" expanded="0" suppressed="1" width="-1"/>
+            </Tab>
+            <Tab id="BROWSER_1052" type="5">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" type="7">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" type="7">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" type="7">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/ProcessStudioWizard:Process Studio" type="7">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/ROLE_SYSTEM_PAL:Roles" type="7">
+                <State app="ALP_CROSS_STATION_PROCESS_PLANNING_TASK" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" type="7">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+        </Setting>
+        <Setting name="BorderBar">
+            <BorderBar name="TopBorderBar" ribbonFullscreenVisibility="1" ribbonVisibility="1"/>
+            <BorderBar name="BottomBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
+            <BorderBar name="LeftBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
+            <BorderBar name="RightBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
+        </Setting>
+        <Setting autoScaleIcons="1" bitmap="24" dialogBitmap="16" horzBorderBitmap="16" menuBitmap="16" minibarBitmap="24" name="IconSize" ribbonBitmap="32" slimRibbonBitmap="24" vertBorderBitmap="24"/>
+        <Setting name="ToolDialogs">
+            <Application fullScreen="0" name="UG_APP_MODELING">
+                <DockLayout>
+                    <NodeDockInfos>
+                        <NodeDockInfo frameId="" height="821" id="SFEM_SNT" objectPath="rb.0[0]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="DESFEM_SNT" objectPath="rb.0[1]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MotionSimUI::Navigator" objectPath="rb.0[2]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MOTION_SNT" objectPath="rb.0[3]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MDFTNAV" objectPath="rb.0[4]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MECHDES_SNT" objectPath="rb.0[5]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MECHDES_RI" objectPath="rb.0[6]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MECHDES_RE" objectPath="rb.0[7]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="SPPNT" objectPath="rb.0[8]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="FCNTLNAV" objectPath="rb.0[9]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CaeUI::APPPP::Navigator" objectPath="rb.0[10]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CaeUI::LST::Navigator" objectPath="rb.0[11]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MotionDesignerUI::Nav::Navigator" objectPath="rb.0[12]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ANT" objectPath="rb.0[13]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="CNAV" objectPath="rb.0[14]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::AssyUI::InterpartRelations::Navigator" objectPath="rb.0[15]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="PARTNT" objectPath="rb.0[16]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::SketchUI::Nav::SketchNavigator" objectPath="rb.0[17]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::BoPUI::BOPNavigator" objectPath="rb.0[18]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="NOTECTR" objectPath="rb.0[19]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="KFNT" objectPath="rb.0[20]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="SEQNT" objectPath="rb.0[21]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::OperationNavigator" objectPath="rb.0[22]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ONT" objectPath="rb.0[23]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::FeatureNavigator" objectPath="rb.0[24]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MTB" objectPath="rb.0[25]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::SetupConfiguratorNavigator" objectPath="rb.0[26]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MTC" objectPath="rb.0[27]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::NavigatorComparator" objectPath="rb.0[28]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ELECCONNNAV" objectPath="rb.0[29]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ELECCOMPNAV" objectPath="rb.0[30]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::RoutingUI::Electrical::Navigator" objectPath="rb.0[31]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="RUNNAV" objectPath="rb.0[32]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::RoutingUI::Mechanical::SpoolNavigator" objectPath="rb.0[33]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="PICL" objectPath="rb.0[34]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MANT" objectPath="rb.0[35]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="TCNAV" objectPath="rb.0[36]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="KRUNAV" objectPath="rb.0[37]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MoldNavViewManagerNav" objectPath="rb.0[38]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ION" objectPath="rb.0[39]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="CDPNAV" objectPath="rb.0[40]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="CDRNAV" objectPath="rb.0[41]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" objectPath="rb.0[42]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="BROWSER_1001" objectPath="rb.0[47]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/ROLE_SYSTEM_PAL:Roles" objectPath="rb.0[50]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" objectPath="rb.0[51]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="BROWSER_1052" objectPath="rb.0[48]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/ProcessStudioWizard:Process Studio" objectPath="rb.0[52]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" objectPath="rb.0[53]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="NX_GADGET_AREA" objectPath="rb.0[46]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MBD::PMIQueryUI::Frame" objectPath="rb.0[43]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" objectPath="rb.0[54]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MBD::UI::DataBrowser::Frame" objectPath="rb.0[44]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::ProcessModel::UI::Navigator" objectPath="rb.0[45]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="Main" height="853" id="Main" objectPath="ts." recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="1400"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" objectPath="rb.0[55]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                    </NodeDockInfos>
+                    <FrameDockInfos/>
+                </DockLayout>
+            </Application>
+            <Application fullScreen="0" name="UG_APP_NOPART">
+                <DockLayout>
+                    <NodeDockInfos>
+                        <NodeDockInfo frameId="" height="823" id="SFEM_SNT" objectPath="rb.0[0]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="DESFEM_SNT" objectPath="rb.0[1]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::MotionSimUI::Navigator" objectPath="rb.0[2]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MOTION_SNT" objectPath="rb.0[3]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MDFTNAV" objectPath="rb.0[4]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MECHDES_SNT" objectPath="rb.0[5]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MECHDES_RI" objectPath="rb.0[6]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MECHDES_RE" objectPath="rb.0[7]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="SPPNT" objectPath="rb.0[8]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="FCNTLNAV" objectPath="rb.0[9]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::CaeUI::APPPP::Navigator" objectPath="rb.0[10]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::CaeUI::LST::Navigator" objectPath="rb.0[11]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::MotionDesignerUI::Nav::Navigator" objectPath="rb.0[12]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="ANT" objectPath="rb.0[13]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="CNAV" objectPath="rb.0[14]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::AssyUI::InterpartRelations::Navigator" objectPath="rb.0[15]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="PARTNT" objectPath="rb.0[16]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::SketchUI::Nav::SketchNavigator" objectPath="rb.0[17]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::BoPUI::BOPNavigator" objectPath="rb.0[18]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="NOTECTR" objectPath="rb.0[19]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="KFNT" objectPath="rb.0[20]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="SEQNT" objectPath="rb.0[21]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::CamUI::OperationNavigator" objectPath="rb.0[22]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="ONT" objectPath="rb.0[23]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::CamUI::FeatureNavigator" objectPath="rb.0[24]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MTB" objectPath="rb.0[25]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::CamUI::SetupConfiguratorNavigator" objectPath="rb.0[26]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MTC" objectPath="rb.0[27]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::CamUI::NavigatorComparator" objectPath="rb.0[28]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="ELECCONNNAV" objectPath="rb.0[29]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="ELECCOMPNAV" objectPath="rb.0[30]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::RoutingUI::Electrical::Navigator" objectPath="rb.0[31]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="RUNNAV" objectPath="rb.0[32]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::RoutingUI::Mechanical::SpoolNavigator" objectPath="rb.0[33]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="PICL" objectPath="rb.0[34]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MANT" objectPath="rb.0[35]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="TCNAV" objectPath="rb.0[36]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="KRUNAV" objectPath="rb.0[37]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="MoldNavViewManagerNav" objectPath="rb.0[38]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="ION" objectPath="rb.0[39]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="CDPNAV" objectPath="rb.0[40]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="CDRNAV" objectPath="rb.0[41]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" objectPath="rb.0[42]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="BROWSER_1001" objectPath="rb.0[46]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UG/ROLE_SYSTEM_PAL:Roles" objectPath="rb.0[49]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" objectPath="rb.0[50]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="BROWSER_1052" objectPath="rb.0[47]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UG/ProcessStudioWizard:Process Studio" objectPath="rb.0[51]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" objectPath="rb.0[52]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="NX_GADGET_AREA" objectPath="rb.0[45]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="Main" height="855" id="Main" objectPath="ts." recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="1400"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::MBD::PMIQueryUI::Frame" objectPath="rb.0[43]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" objectPath="rb.0[53]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UGS::MBD::UI::DataBrowser::Frame" objectPath="rb.0[44]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="823" id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" objectPath="rb.0[54]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                    </NodeDockInfos>
+                    <FrameDockInfos/>
+                </DockLayout>
+            </Application>
+            <Application fullScreen="0" name="UG_APP_SKETCH_TASK">
+                <DockLayout>
+                    <NodeDockInfos>
+                        <NodeDockInfo frameId="" height="821" id="SFEM_SNT" objectPath="rb.0[0]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="DESFEM_SNT" objectPath="rb.0[1]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MotionSimUI::Navigator" objectPath="rb.0[2]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MOTION_SNT" objectPath="rb.0[3]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MDFTNAV" objectPath="rb.0[4]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MECHDES_SNT" objectPath="rb.0[5]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MECHDES_RI" objectPath="rb.0[6]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MECHDES_RE" objectPath="rb.0[7]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="SPPNT" objectPath="rb.0[8]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="FCNTLNAV" objectPath="rb.0[9]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CaeUI::APPPP::Navigator" objectPath="rb.0[10]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CaeUI::LST::Navigator" objectPath="rb.0[11]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MotionDesignerUI::Nav::Navigator" objectPath="rb.0[12]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ANT" objectPath="rb.0[13]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="CNAV" objectPath="rb.0[14]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::AssyUI::InterpartRelations::Navigator" objectPath="rb.0[15]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="PARTNT" objectPath="rb.0[16]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::SketchUI::Nav::SketchNavigator" objectPath="rb.0[17]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::BoPUI::BOPNavigator" objectPath="rb.0[18]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="NOTECTR" objectPath="rb.0[19]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="KFNT" objectPath="rb.0[20]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="SEQNT" objectPath="rb.0[21]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::OperationNavigator" objectPath="rb.0[22]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ONT" objectPath="rb.0[23]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::FeatureNavigator" objectPath="rb.0[24]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MTB" objectPath="rb.0[25]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::SetupConfiguratorNavigator" objectPath="rb.0[26]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MTC" objectPath="rb.0[27]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::CamUI::NavigatorComparator" objectPath="rb.0[28]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ELECCONNNAV" objectPath="rb.0[29]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ELECCOMPNAV" objectPath="rb.0[30]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::RoutingUI::Electrical::Navigator" objectPath="rb.0[31]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="RUNNAV" objectPath="rb.0[32]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::RoutingUI::Mechanical::SpoolNavigator" objectPath="rb.0[33]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="PICL" objectPath="rb.0[34]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MANT" objectPath="rb.0[35]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="TCNAV" objectPath="rb.0[36]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="KRUNAV" objectPath="rb.0[37]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="MoldNavViewManagerNav" objectPath="rb.0[38]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="ION" objectPath="rb.0[39]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="CDPNAV" objectPath="rb.0[40]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="CDRNAV" objectPath="rb.0[41]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" objectPath="rb.0[42]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="BROWSER_1001" objectPath="rb.0[47]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/ROLE_SYSTEM_PAL:Roles" objectPath="rb.0[50]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" objectPath="rb.0[51]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="BROWSER_1052" objectPath="rb.0[48]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/ProcessStudioWizard:Process Studio" objectPath="rb.0[52]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" objectPath="rb.0[53]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="NX_GADGET_AREA" objectPath="rb.0[46]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MBD::PMIQueryUI::Frame" objectPath="rb.0[43]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" objectPath="rb.0[54]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::MBD::UI::DataBrowser::Frame" objectPath="rb.0[44]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="821" id="UGS::ProcessModel::UI::Navigator" objectPath="rb.0[45]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="Main" height="853" id="Main" objectPath="ts." recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="1400"/>
+                        <NodeDockInfo frameId="" height="821" id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" objectPath="rb.0[55]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                    </NodeDockInfos>
+                    <FrameDockInfos/>
+                </DockLayout>
+            </Application>
+        </Setting>
+        <Setting homePage="" name="WebBrowser" usePerSiteZoom="1"/>
+        <Setting name="QuickPickOnDelay"/>
+        <Setting commandDialogFavoriteOption="1" name="Favorites"/>
+        <Setting name="Gadgets">
+            <Gadget applications="" id="NX_VISUAL_REPORTING" index="1" visibility="1"/>
+            <Gadget applications="" id="NX_VALIDATION_GADGET" index="2" visibility="1"/>
+            <Gadget applications="" id="NX_ANALYSIS_GADGET" index="3" visibility="1"/>
+            <Gadget applications="" id="PTS_GADGET" index="4" visibility="1"/>
+            <Gadget applications="" id="NX_REQUIREMENT_GADGET" index="5" visibility="1"/>
+            <Gadget applications="" id="NX_ISSUE_GADGET" index="6" visibility="1"/>
+            <Gadget applications="" id="NX_PMI_COMPARE" index="7" visibility="1"/>
+            <Gadget applications="" id="NX_PMI_ADVISOR_GADGET" index="8" visibility="1"/>
+            <Gadget applications="" id="NX_KEY_PERFORMANCE_INTERFACE_VALIDATION_GADGET" index="9" visibility="1"/>
+            <Gadget applications="" id="NX_VEHICLE_PACKAGING_VALIDATION" index="10" visibility="1"/>
+            <Gadget applications="" id="NX_BOOKMARK_GADGET" index="11" visibility="1"/>
+            <Gadget applications="" id="NX_ASSEMBLY_QUALITY_AUDIT" index="12" visibility="1"/>
+            <Gadget applications="" id="NX_CORROSION_GADGET" index="13" visibility="1"/>
+        </Setting>
+        <Setting name="WindowAttributes">
+            <Window bottom="818" horzSnap="3" id="AnavPropertiesDialog" left="440" right="803" state="0" top="261" type="3" vertSnap="4"/>
+            <Window COL_4294823870="Title,Frozen,200,0|Status,On,50,1|Source,On,50,2|Value,On,150,3" id="UICOMPNAV_view_UGS_SketchUI_Nav_IssuesView_layout_Issues::TreeColumns"/>
+            <Window COL_4294823870="Title,Frozen,200,0|Status,On,50,1|Source,On,50,2|Value,On,150,3" id="UICOMPNAV_view_UGS_SketchUI_Nav_RelationsView_layout_Relations::TreeColumns"/>
+            <Window COL_4294823870="Title,Frozen,200,0|Status,On,50,1|Source,On,50,2|Value,On,150,3" id="UICOMPNAV_view_UGS_SketchUI_Nav_CurvesView_layout_Curves::TreeColumns"/>
+            <Window COL_4294823870="Title,Frozen,200,0|Status,On,50,1|Source,On,50,2|Value,On,150,3" id="UICOMPNAV_view_UGS_SketchUI_Nav_ExternalReferencesView_layout_External_References::TreeColumns"/>
+            <Window id="DefaultDialogRail" posX="0" posY="9" snappedHorizontal="3" snappedVertical="4"/>
+            <Window bottom="0" id="RadialTouchPad" left="0" right="0" snappedHorizontal="-1" snappedVertical="-1" top="0"/>
+        </Setting>
+    </SessionSettings>
+    <TouchSessionSettings>
+        <Setting name="RibbonMinimized" ribbonFullscreenMinimized="0" ribbonMinimized="0"/>
+        <Setting enforceGalleryStyle="0" enforceGalleryStyleFullScreen="-1" name="MiscRibbon" useSlimRibbonStyle="0" useSlimRibbonStyleInFullScreen="-1"/>
+        <Setting name="Tooltips" showScreenMessages="1" showScreenMessagesOnDialog="1" showScreenTips="1" showShortcutKeysInScreenTips="1"/>
+        <Setting defaultModeSetup="1" name="UserInterfaceMode"/>
+        <Setting name="Ribbon" ribbonDocked="1">
+            <RibbonManager horzMarker="5" posX="-1" posY="-1" stripStyle="0" vertMarker="4" width="1200"/>
+        </Setting>
+        <Setting fullScreenOption="1" fullScreenSetup="0" name="FullScreen" ribbonFullScreenOption="0" ribbonFullScreenSetup="0">
+            <ToolbarManager alwaysTextBelow="1" floating="0" horzMarker="5" isExpanded="1" posX="-1" posY="-1" stripStyle="0" vertMarker="6" width="1000"/>
+        </Setting>
+        <Setting name="SelectionBar">
+            <Mode alwaysTextBelow="0" name="General" pos="0" showMiniBar="1" visibility="1"/>
+            <Mode alwaysTextBelow="0" name="FullScreen" pos="0" showMiniBar="1" visibility="0"/>
+            <Mode alwaysTextBelow="0" name="Ribbon" pos="0" showMiniBar="1" visibility="1"/>
+            <Mode alwaysTextBelow="0" name="RibbonFullscreen" pos="0" showMiniBar="1" visibility="1"/>
+        </Setting>
+        <Setting name="ShortcutToolbar">
+            <Mode name="General" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+            <Mode name="FullScreen" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+            <Mode name="Ribbon" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+            <Mode name="RibbonFullscreen" showAllObjectShortcutToolbars="1" showViewOptions="-1" showViewShortcutToolbar="1"/>
+        </Setting>
+        <Setting name="StatusBar">
+            <Mode name="General" pos="1" showCueTooltips="1" visibility="1"/>
+            <Mode name="FullScreen" pos="1" showCueTooltips="1" visibility="1"/>
+            <Mode name="Ribbon" pos="1" showCueTooltips="1" visibility="1"/>
+            <Mode name="RibbonFullscreen" pos="1" showCueTooltips="1" visibility="0"/>
+        </Setting>
+        <Setting autoFlyout="1" dockOnSecondMonitor="0" dockSide="0" name="ResourceBar" pinShown="1" pinned="1" pinnedWidth="-1" useDocumentWindowOnly="0" useSecondMonitor="0" visible="1">
+            <Mode name="General" presentation="0"/>
+            <Mode name="FullScreen" presentation="1"/>
+            <Mode name="Ribbon" presentation="0"/>
+            <Mode name="RibbonFullScreen" presentation="1"/>
+            <Tab id="ANT" type="2">
+                <State app="ALP_CROSS_STATION_PROCESS_PLANNING_TASK" expanded="0" suppressed="1" width="-1"/>
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_LAYOUT_EDIT_IN_ISOLATION" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="CDPNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="CDRNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="CNAV" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="DESFEM_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ELECCOMPNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ELECCONNNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="FCNTLNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ION" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="KFNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="KRUNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MANT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MDFTNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MECHDES_RE" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MECHDES_RI" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MECHDES_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MOTION_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MTB" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MTC" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="MoldNavViewManagerNav" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="NOTECTR" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="ONT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="PARTNT" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="PICL" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="RUNNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="SEQNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="SFEM_SNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="SPPNT" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="TCNAV" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::AssyUI::InterpartRelations::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::BoPUI::BOPNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CaeUI::APPPP::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CaeUI::LST::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::FeatureNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::NavigatorComparator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::OperationNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::CamUI::SetupConfiguratorNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MBD::PMIQueryUI::Frame" type="2">
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MBD::UI::DataBrowser::Frame" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MotionDesignerUI::Nav::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::MotionSimUI::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::ProcessModel::UI::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::RoutingUI::Electrical::Navigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::RoutingUI::Mechanical::SpoolNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::SketchUI::Nav::SketchNavigator" type="2">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" type="2">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="APP_STRUCTUREDESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_DRAFTING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_LEGACY_TASK" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="NX_GADGET_AREA" type="4">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="0" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_DRAFTING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_LAYOUT_EDIT_IN_ISOLATION" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_LEGACY_TASK" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="BROWSER_1001" type="5">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="BROWSER_1007" type="5">
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+            </Tab>
+            <Tab id="BROWSER_1020" type="5">
+                <State app="ALP_CROSS_STATION_PROCESS_PLANNING_TASK" expanded="0" suppressed="1" width="-1"/>
+            </Tab>
+            <Tab id="BROWSER_1052" type="5">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" type="7">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" type="7">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" type="7">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/ProcessStudioWizard:Process Studio" type="7">
+                <State app="APP_LINE_DESIGNER" expanded="0" suppressed="1" width="-1"/>
+                <State app="All" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SBSM" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/ROLE_SYSTEM_PAL:Roles" type="7">
+                <State app="ALP_CROSS_STATION_PROCESS_PLANNING_TASK" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" type="7">
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="400"/>
+            </Tab>
+        </Setting>
+        <Setting name="BorderBar">
+            <BorderBar name="TopBorderBar" ribbonFullscreenVisibility="1" ribbonVisibility="1"/>
+            <BorderBar name="BottomBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
+            <BorderBar name="LeftBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
+            <BorderBar name="RightBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
+        </Setting>
+        <Setting autoScaleIcons="0" bitmap="32" dialogBitmap="24" horzBorderBitmap="32" menuBitmap="32" minibarBitmap="32" name="IconSize" ribbonBitmap="48" slimRibbonBitmap="48" vertBorderBitmap="32"/>
+        <Setting name="ToolDialogs">
+            <Application fullScreen="0" name="UG_APP_MODELING">
+                <DockLayout>
+                    <NodeDockInfos>
+                        <NodeDockInfo frameId="" height="885" id="SFEM_SNT" objectPath="rb.0[0]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="DESFEM_SNT" objectPath="rb.0[1]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::MotionSimUI::Navigator" objectPath="rb.0[2]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MOTION_SNT" objectPath="rb.0[3]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MDFTNAV" objectPath="rb.0[4]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MECHDES_SNT" objectPath="rb.0[5]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MECHDES_RI" objectPath="rb.0[6]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MECHDES_RE" objectPath="rb.0[7]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="SPPNT" objectPath="rb.0[8]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="FCNTLNAV" objectPath="rb.0[9]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::CaeUI::APPPP::Navigator" objectPath="rb.0[10]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::CaeUI::LST::Navigator" objectPath="rb.0[11]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::MotionDesignerUI::Nav::Navigator" objectPath="rb.0[12]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="ANT" objectPath="rb.0[13]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="CNAV" objectPath="rb.0[14]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::AssyUI::InterpartRelations::Navigator" objectPath="rb.0[15]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="PARTNT" objectPath="rb.0[16]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::SketchUI::Nav::SketchNavigator" objectPath="rb.0[17]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::BoPUI::BOPNavigator" objectPath="rb.0[18]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="NOTECTR" objectPath="rb.0[19]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="KFNT" objectPath="rb.0[20]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="SEQNT" objectPath="rb.0[21]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::CamUI::OperationNavigator" objectPath="rb.0[22]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="ONT" objectPath="rb.0[23]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::CamUI::FeatureNavigator" objectPath="rb.0[24]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MTB" objectPath="rb.0[25]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::CamUI::SetupConfiguratorNavigator" objectPath="rb.0[26]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MTC" objectPath="rb.0[27]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::CamUI::NavigatorComparator" objectPath="rb.0[28]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="ELECCONNNAV" objectPath="rb.0[29]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="ELECCOMPNAV" objectPath="rb.0[30]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::RoutingUI::Electrical::Navigator" objectPath="rb.0[31]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="RUNNAV" objectPath="rb.0[32]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::RoutingUI::Mechanical::SpoolNavigator" objectPath="rb.0[33]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="PICL" objectPath="rb.0[34]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MANT" objectPath="rb.0[35]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="TCNAV" objectPath="rb.0[36]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="KRUNAV" objectPath="rb.0[37]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="MoldNavViewManagerNav" objectPath="rb.0[38]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="ION" objectPath="rb.0[39]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="CDPNAV" objectPath="rb.0[40]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="CDRNAV" objectPath="rb.0[41]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" objectPath="rb.0[42]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="BROWSER_1001" objectPath="rb.0[47]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UG/ROLE_SYSTEM_PAL:Roles" objectPath="rb.0[50]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" objectPath="rb.0[51]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="BROWSER_1052" objectPath="rb.0[48]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UG/ProcessStudioWizard:Process Studio" objectPath="rb.0[52]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" objectPath="rb.0[53]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="NX_GADGET_AREA" objectPath="rb.0[46]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::MBD::PMIQueryUI::Frame" objectPath="rb.0[43]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" objectPath="rb.0[54]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::MBD::UI::DataBrowser::Frame" objectPath="rb.0[44]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="344"/>
+                        <NodeDockInfo frameId="" height="885" id="UGS::ProcessModel::UI::Navigator" objectPath="rb.0[45]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="Main" height="917" id="Main" objectPath="ts." recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="1487"/>
+                        <NodeDockInfo frameId="" height="885" id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" objectPath="rb.0[55]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                    </NodeDockInfos>
+                    <FrameDockInfos/>
+                </DockLayout>
+            </Application>
+            <Application fullScreen="0" name="UG_APP_NOPART">
+                <DockLayout>
+                    <NodeDockInfos>
+                        <NodeDockInfo frameId="" height="770" id="SFEM_SNT" objectPath="rb.0[0]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="DESFEM_SNT" objectPath="rb.0[1]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::MotionSimUI::Navigator" objectPath="rb.0[2]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MOTION_SNT" objectPath="rb.0[3]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MDFTNAV" objectPath="rb.0[4]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MECHDES_SNT" objectPath="rb.0[5]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MECHDES_RI" objectPath="rb.0[6]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MECHDES_RE" objectPath="rb.0[7]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="SPPNT" objectPath="rb.0[8]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="FCNTLNAV" objectPath="rb.0[9]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::CaeUI::APPPP::Navigator" objectPath="rb.0[10]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::CaeUI::LST::Navigator" objectPath="rb.0[11]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::MotionDesignerUI::Nav::Navigator" objectPath="rb.0[12]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="ANT" objectPath="rb.0[13]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="CNAV" objectPath="rb.0[14]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::AssyUI::InterpartRelations::Navigator" objectPath="rb.0[15]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="PARTNT" objectPath="rb.0[16]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::SketchUI::Nav::SketchNavigator" objectPath="rb.0[17]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::BoPUI::BOPNavigator" objectPath="rb.0[18]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="NOTECTR" objectPath="rb.0[19]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="KFNT" objectPath="rb.0[20]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="SEQNT" objectPath="rb.0[21]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::CamUI::OperationNavigator" objectPath="rb.0[22]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="ONT" objectPath="rb.0[23]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::CamUI::FeatureNavigator" objectPath="rb.0[24]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MTB" objectPath="rb.0[25]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::CamUI::SetupConfiguratorNavigator" objectPath="rb.0[26]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MTC" objectPath="rb.0[27]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::CamUI::NavigatorComparator" objectPath="rb.0[28]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="ELECCONNNAV" objectPath="rb.0[29]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="ELECCOMPNAV" objectPath="rb.0[30]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::RoutingUI::Electrical::Navigator" objectPath="rb.0[31]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="RUNNAV" objectPath="rb.0[32]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::RoutingUI::Mechanical::SpoolNavigator" objectPath="rb.0[33]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="PICL" objectPath="rb.0[34]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MANT" objectPath="rb.0[35]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="TCNAV" objectPath="rb.0[36]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="KRUNAV" objectPath="rb.0[37]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="MoldNavViewManagerNav" objectPath="rb.0[38]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="ION" objectPath="rb.0[39]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="CDPNAV" objectPath="rb.0[40]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="CDRNAV" objectPath="rb.0[41]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::ToolingUI::ReuseLibraryNavigatorFrame" objectPath="rb.0[42]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="BROWSER_1001" objectPath="rb.0[45]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UG/ROLE_SYSTEM_PAL:Roles" objectPath="rb.0[49]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="C:\Program Files\Siemens\Designcenter2606\mach\resource\library\machine\installed_machines\CAM_Machine_Samples.pax" objectPath="rb.0[50]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="BROWSER_1052" objectPath="rb.0[46]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UG/ProcessStudioWizard:Process Studio" objectPath="rb.0[51]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="UG/CAM_WIZARD_PAL:Manufacturing Wizards" objectPath="rb.0[52]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="NX_GADGET_AREA" objectPath="rb.0[44]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="Main" height="806" id="Main" objectPath="ts." recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="1393"/>
+                        <NodeDockInfo frameId="" height="770" id="UGS::MBD::PMIQueryUI::Frame" objectPath="rb.0[43]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="770" id="C:\Program Files\Siemens\Designcenter2606\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" objectPath="rb.0[53]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="-77"/>
+                        <NodeDockInfo frameId="" height="887" id="UGS::MBD::UI::DataBrowser::Frame" objectPath="rb.0[44]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="887" id="UG/SVM_SYS_MATERIAL_PAL:SVM_CANNED_MATERIALS" objectPath="rb.0[54]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="0" width="344"/>
+                        <NodeDockInfo frameId="" height="770" id="BROWSER_1007" objectPath="rb.0[47]" recordedAsSingleTab="0" recordedSeparately="0" selected="0" visibility="1" width="-77"/>
+                    </NodeDockInfos>
+                    <FrameDockInfos/>
+                </DockLayout>
+            </Application>
+        </Setting>
+        <Setting homePage="" name="WebBrowser" usePerSiteZoom="1"/>
+        <Setting name="QuickPickOnDelay"/>
+        <Setting commandDialogFavoriteOption="1" name="Favorites"/>
+        <Setting name="Gadgets">
+            <Gadget applications="" id="NX_VISUAL_REPORTING" index="1" visibility="1"/>
+            <Gadget applications="" id="NX_VALIDATION_GADGET" index="2" visibility="1"/>
+            <Gadget applications="" id="NX_ANALYSIS_GADGET" index="3" visibility="1"/>
+            <Gadget applications="" id="PTS_GADGET" index="4" visibility="1"/>
+            <Gadget applications="" id="NX_REQUIREMENT_GADGET" index="5" visibility="1"/>
+            <Gadget applications="" id="NX_ISSUE_GADGET" index="6" visibility="1"/>
+            <Gadget applications="" id="NX_PMI_COMPARE" index="7" visibility="1"/>
+            <Gadget applications="" id="NX_PMI_ADVISOR_GADGET" index="8" visibility="1"/>
+            <Gadget applications="" id="NX_KEY_PERFORMANCE_INTERFACE_VALIDATION_GADGET" index="9" visibility="1"/>
+            <Gadget applications="" id="NX_VEHICLE_PACKAGING_VALIDATION" index="10" visibility="1"/>
+            <Gadget applications="" id="NX_BOOKMARK_GADGET" index="11" visibility="1"/>
+            <Gadget applications="" id="NX_ASSEMBLY_QUALITY_AUDIT" index="12" visibility="1"/>
+            <Gadget applications="" id="NX_CORROSION_GADGET" index="13" visibility="1"/>
+        </Setting>
+        <Setting name="WindowAttributes">
+            <Window bottom="0" id="RadialTouchPad" left="45" right="0" snappedHorizontal="-1" snappedVertical="-1" top="231"/>
+            <Window id="DefaultDialogRail" posX="0" posY="9" snappedHorizontal="3" snappedVertical="4"/>
+        </Setting>
+    </TouchSessionSettings>
+    <ApplicationData/>
+</NX_PROFILES>
