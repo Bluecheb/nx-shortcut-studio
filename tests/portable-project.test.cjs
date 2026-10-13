@@ -10,6 +10,7 @@ check('Role-derived journal label does not leak its command ID',()=>{const next=
 check('Path-based command label sanitized',()=>{const next=structuredClone(maps);next.sketch[0].label='C:\\Private\\journal.vb';assert.equal(api.create(next,tabs,'2606').project.workspaces.sketch[0].label,'Journal 1');});
 check('No default shortcut injection',()=>assert.equal(api.create({modeling:[],sketch:[]},{ribbon:{},side:{}},'2606').project.workspaces.modeling.length,0));
 check('Full JSON round trip',()=>assert.deepEqual(api.parse(JSON.stringify(project)),project));
+check('deterministic natural F-key / ordinal other-key ordering',()=>{const keys=['F24','F2','F10','F1','Z','A',';','1','CapsLock'];assert.deepEqual(keys.sort(api.compareBaseKeys),['1',';','A','CapsLock','F1','F2','F10','F24','Z']);});
 check('Canonical modifier order',()=>assert.equal(api.keyParts('Shift+ALT+e').key,'Alt+Shift+E'));
 check('All exact modifier branches',()=>{for(const layer of api.layers){const key=layer==='none'?'X':layer+'+X';const custom=api.create({modeling:[{id:'TEST',label:'Test',key}],sketch:[]},{ribbon:{},side:{}},'2606').project;for(const candidate of api.layers)assert.equal(api.layerRows(custom,'modeling',candidate).length,Number(layer===candidate));}});
 check('Empty shortcuts not listed',()=>{const next=altered(project,p=>p.workspaces.modeling[0].key='');assert(!api.layerRows(next,'modeling','none').length);});

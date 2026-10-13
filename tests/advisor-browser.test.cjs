@@ -3,7 +3,9 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
 (async()=>{const browser=await chromium.launch({headless:true,executablePath:process.env.NX_TEST_BROWSER||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(require('node:url').pathToFileURL(path.resolve(__dirname,'../dist/index.html')).href);await page.waitForSelector('#advisorPanel');
- const before=await page.evaluate(()=>JSON.stringify(window.NX_STUDIO_EDITOR.getShortcuts()));assert.equal(await page.locator('.advisor-card').count(),6);
+ const before=await page.evaluate(()=>JSON.stringify(window.NX_STUDIO_EDITOR.getShortcuts()));const tabsBefore=await page.evaluate(()=>JSON.stringify(window.NX_ROLE_VISIBILITY.getState()));assert.equal(await page.locator('.advisor-card').count(),7);
+ await page.getByRole('button',{name:'Shortcuts only',exact:true}).click();assert.equal(await page.locator('.advisor-card').first().getAttribute('data-advice-id'),'shortcuts-only');
+ await page.locator('.advisor-card').first().locator('summary').click();assert((await page.locator('.advisor-card').first().textContent()).includes('uncheck Ribbon visibility'));assert.equal(await page.evaluate(()=>JSON.stringify(window.NX_ROLE_VISIBILITY.getState())),tabsBefore,'Advisor cannot change tabs');
  await page.getByRole('button',{name:'Dimension zoom',exact:true}).click();assert.equal(await page.locator('.advisor-card').first().getAttribute('data-advice-id'),'dimension-height');
  await page.locator('.advisor-card').first().locator('summary').click();assert((await page.locator('.advisor-card').first().textContent()).includes('Restore the recorded checkbox'));
  await page.locator('#advisorRelease').fill('2706');await page.locator('#advisorQuery').fill('hide ribbon tabs');await page.locator('#advisorQuery').press('Tab');await page.getByRole('button',{name:'Find possibilities',exact:true}).click();assert((await page.locator('.advisor-card').first().textContent()).includes('Not verified for NX 2706'));

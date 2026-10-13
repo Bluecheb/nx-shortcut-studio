@@ -45,6 +45,26 @@ public sealed record BuddyProject(IReadOnlyList<Binding> Modeling,IReadOnlyList<
 }
 public sealed record Observation(double At,bool VerifiedNx,bool Minimized,bool Ctrl,bool Alt,bool Shift,string Workspace,bool Paused);
 public sealed record GuideState(string Status,string Reason,string? Workspace,string? Layer,IReadOnlyList<Binding> Rows,double? ShowAt);
+public sealed class BaseKeyComparer:IComparer<string> {
+ public static readonly BaseKeyComparer Instance=new();
+ public int Compare(string? a,string? b){
+  if(a is not null&&b is not null&&Regex.IsMatch(a,@"^F\d+$")&&Regex.IsMatch(b,@"^F\d+$"))return int.Parse(a[1..]).CompareTo(int.Parse(b[1..]));
+  return StringComparer.Ordinal.Compare(a,b);
+ }
+}
+public sealed record GuideFrame(int Left,int Top,int Width,int Height);
+public static class GuideLayout {
+ // Physical-pixel bounds; measured content height is in device-independent units.
+ public static GuideFrame? Frame(int left,int top,int right,int bottom,uint dpi,string corner,double contentHeight){
+  if(dpi==0||!double.IsFinite(contentHeight)||contentHeight<=0||!new[]{"top-left","top-right","bottom-left","bottom-right"}.Contains(corner))return null;
+  var scale=dpi/96.0;var availableWidth=(double)right-left-32;var availableHeight=(double)bottom-top-32;
+  var width=Math.Min(Math.Ceiling(360*scale),availableWidth);var height=Math.Min(Math.Ceiling(Math.Min(380,contentHeight)*scale),availableHeight);
+  if(width<100*scale||height<60*scale||width>int.MaxValue||height>int.MaxValue)return null;
+  var x=corner.EndsWith("right")?(double)right-width-16:(double)left+16;var y=corner.StartsWith("bottom")?(double)bottom-height-16:(double)top+16;
+  if(x<int.MinValue||x>int.MaxValue||y<int.MinValue||y>int.MaxValue)return null;
+  return new((int)x,(int)y,(int)width,(int)height);
+ }
+}
 public sealed class DisplayController {
  private BuddyProject? project;private double? lastAt,showAt;private string? signature;
  public DisplayController(BuddyProject value){project=value;}
@@ -55,7 +75,7 @@ public sealed class DisplayController {
   if(!double.IsFinite(s.At)||s.At<0||s.Workspace is not ("modeling" or "sketch")){lastAt=null;return Hide("invalid-observation");}if(lastAt.HasValue&&s.At<lastAt.Value){lastAt=s.At;return Hide("clock-reversed");}lastAt=s.At;
   if(project is null)return Hide("invalid-project");if(s.Paused)return Hide("paused");if(!s.VerifiedNx)return Hide("not-nx-foreground");if(s.Minimized)return Hide("nx-minimized");
   var layer=string.Join('+',new[]{s.Ctrl?"ctrl":"",s.Alt?"alt":"",s.Shift?"shift":""}.Where(x=>x!=""));if(layer=="")layer="none";
-  var rows=(s.Workspace=="modeling"?project.Modeling:project.Sketch).Where(b=>b.Key!=""&&b.Layer==layer).OrderBy(b=>b.Base,StringComparer.Ordinal).ToArray();if(rows.Length==0)return Hide("no-bindings");
+  var rows=(s.Workspace=="modeling"?project.Modeling:project.Sketch).Where(b=>b.Key!=""&&b.Layer==layer).OrderBy(b=>b.Base,BaseKeyComparer.Instance).ToArray();if(rows.Length==0)return Hide("no-bindings");
   var current=s.Workspace+":"+layer;if(signature!=current){signature=current;showAt=s.At+project.Overlay.ShowDelayMs;}
   return s.At<showAt!.Value?new("waiting","show-delay",s.Workspace,layer,Array.Empty<Binding>(),showAt):new("visible","ready",s.Workspace,layer,rows,showAt);
  }

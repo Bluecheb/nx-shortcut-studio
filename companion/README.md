@@ -31,12 +31,11 @@ animation without command content. Journal slots stay unresolved. No default
 bindings are provided. Invalid project replacement disables display until a valid
 project is supplied; returned snapshots are isolated from controller state.
 
-Next: port this tested contract into a selected native view implementation and
-verify process gating, non-activation, click-through, monitor/DPI placement, and
-minimize/restart behavior. No native build or runtime capability is claimed.
-
-An unbuilt WPF/.NET 10 source candidate now lives in windows/. Its management
-window, strict portable-file reader, exact-layer controller, and foreground-gated
-modifier adapter are authored but not compiled or run. Eight shared vectors pass
-on the JS side; a console C# test project is provided for the SDK-enabled build.
+The WPF/.NET 10 source candidate lives in windows/. It has compiled locally and
+passed console tests plus partial native disposable-session checks. It is not a
+downloadable binary or a fully certified native release. Eight shared vectors and
+actual browser downloads have been checked against the compiled C# reader.
+Native focus/pause/compact-list/menu-click-through/invalid-import observations
+passed in one setup; monitor/DPI, resize, session/dialog coverage remains pending.
+The updated pre-show positioning path requires a separately approved visual trial.
 See windows/README.md for privacy boundaries and remaining native acceptance.

@@ -9,6 +9,8 @@ assert(!/SendInput|SetForegroundWindow|SetWindowsHookEx|HttpClient|File\.Write|R
 assert.equal([...desktop.matchAll(/Down\((0x[0-9a-f]+)\)/gi)].map(m=>m[1]).sort().join(','),'0x10,0x11,0x12');
 assert(desktop.includes('&0x8000'));assert(desktop.includes('Native.GetForegroundWindow()!=h'));assert(desktop.includes('StringComparison.OrdinalIgnoreCase'));
 assert(desktop.includes('0x08000000'));assert(desktop.includes('ShowActivated=false'));assert(desktop.includes('IsChecked=true'));
+assert(desktop.includes('EnsureHandle()'));assert(desktop.includes('Project selection canceled: display disabled.'));
+assert(desktop.indexOf('!guide.Position(')<desktop.indexOf('guide.Show();'),'Position and foreground recheck precede Show');
 const project=fs.readFileSync(path.join(root,'NxBuddy.csproj'),'utf8');assert(project.includes('net10.0-windows'));assert(project.includes('<PlatformTarget>x64</PlatformTarget>'));assert(!project.includes('PackageReference'));
 const sdk=JSON.parse(fs.readFileSync(path.join(root,'global.json')));assert.equal(sdk.sdk.allowPrerelease,false);
-console.log('PASS: eight shared controller vectors in JS and native source safety guards; C# compilation/runtime NOT verified.');
+console.log('PASS: eight shared controller vectors in JS and native source safety guards; this suite does not perform C# compilation/runtime verification.');

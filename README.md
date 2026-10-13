@@ -35,7 +35,7 @@ Mouse and radial-menu plans are included in JSON only; they are not written into
 
 The `dist` folder contains the authored static HTML, CSS, and JavaScript, a command-name/ID catalog, and a sanitized base role used only as a display catalog. Export requires the user's own baseline. Personal journal IDs and the original Windows-user History palette path are excluded. No private native verification parts or role backups are included.
 
-Seven check suites passed, including 45 role XML checks, 32 portable-project checks, 36 pure display-controller checks, and headless browser upload/download/merge/mobile/local-file flows. Native NX 2606 tests covered generated shortcut and tab restart persistence, visual dimension/preference preservation, and original-role restoration. This is scoped evidence, not certification for every release or layout, or proof of the original dimension symptom's cause. See [portable format](PORTABLE_PROJECT_FORMAT.md) and [companion scope](companion/README.md).
+Eleven check suites passed, including 45 role XML checks, 33 portable-project checks, 36 pure display-controller checks, 23 Advisor checks, and headless browser upload/download/merge/mobile/local-file flows. Native NX 2606 tests covered generated shortcut and tab restart persistence, visual dimension/preference preservation, and original-role restoration. This is scoped evidence, not certification for every release or layout, or proof of the original dimension symptom's cause. See [portable format](PORTABLE_PROJECT_FORMAT.md) and [companion scope](companion/README.md).
 
 Pure checks run with Node; browser tests need Playwright and an installed Edge (or NX_TEST_BROWSER executable). No browser, SDK, NX libraries or binary companion is bundled.
 
@@ -45,7 +45,11 @@ Those do not compile or validate the Windows runtime. See
 [Advisor evidence](ADVISOR_EVIDENCE.md) and [native build requirements](companion/windows/README.md).
 The native candidate starts paused, uses a user-selected NX executable and portable
 project, polls only modifiers, and has no NX writes or command execution. A supported
-.NET 10 SDK, C# core tests/build and actual foreground/click-through/DPI acceptance
-are still required before offering it as a working overlay.
+.NET 10 SDK compiled the candidate locally; 134 C# core assertions and three actual
+browser-download-to-C# reader checks passed. Partial native display checks passed
+in one disposable NX 2606 setup. Updated pre-show positioning still needs a new
+visual trial; monitor/DPI, resize, dialog and session coverage remain pending.
+No binary, automatic startup or native-certification claim is supplied. The Advisor
+now includes shortcut-only export guidance without transferring UI settings.
 
 This is an independent utility, not an official Siemens product. No NX installation, libraries, or license is included.

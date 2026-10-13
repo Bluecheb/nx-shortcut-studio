@@ -2,7 +2,10 @@
 const assert=require('node:assert/strict'),api=require('../dist/advisor-catalog.js');
 let checks=0;const check=(name,fn)=>{fn();checks++;};
 for(const [query,id] of [['dimensions stay same size when I zoom','dimension-height'],['hide ribbon tabs','ribbon-tabs'],['part navigator sidebar','sidebar-tabs'],['restore my role','role-recovery'],['reference geometry journal toggle','reference-journal'],['overlay buddy press shift','overlay-buddy'],['dimentions size zoom','dimension-height']])check(query,()=>assert.equal(api.search(query)[0].id,id));
-check('small empty catalog',()=>assert.equal(api.search('').length,6));
+check('small empty catalog',()=>assert.equal(api.search('').length,7));
+for(const query of ['shortcuts without changing UI','same shortcut layout','keyboard only','keep my interface'])check(query,()=>assert.equal(api.search(query)[0].id,'shortcuts-only'));
+check('shortcut-only scope is explicit',()=>{const row=api.search('shortcuts only')[0];assert(row.steps.join(' ').includes('uncheck Ribbon visibility'));assert(row.limits.includes('Missing edit sections'));assert(row.risk.includes('inherited'));});
+check('Buddy build status does not promise a downloadable binary',()=>{const row=api.catalog().find(r=>r.id==='overlay-buddy');assert(row.scope.includes('no public executable'));assert(row.limits.includes('remain pending'));});
 check('unknown not guessed',()=>assert.equal(api.search('thermodynamic turbocharger simulation meshing').length,0));
 check('future release not verified',()=>{for(const row of api.search('', '2706')){assert.equal(row.releaseMatches,false);assert(row.evidenceStatus.startsWith('Not verified'));}});
 check('bounded input',()=>assert.throws(()=>api.search('a'.repeat(1001))));

@@ -73,7 +73,9 @@ function create(maps,tabs,nxVersion,overlay=defaults){
  for(const kind of ['ribbon','side'])for(const scope of scopes){portable[kind][scope]={};for(const [id,visible] of Object.entries(tabs?.[kind]?.[scope]||{})){if(portableTab(id))portable[kind][scope][id]=visible;else omittedTabs++;}}
  return {project:validate({format:FORMAT,schemaVersion:VERSION,nxVersion,workspaces,tabs:portable,overlay:clone(overlay)}),omittedTabs};
 }
-function layerRows(project,scope,layer){if(!['modeling','sketch'].includes(scope)||!layers.includes(layer))fail('Invalid preview layer.');return project.workspaces[scope].filter(row=>row.key&&keyParts(row.key).layer===layer).map(row=>({...row,base:keyParts(row.key).base})).sort((a,b)=>a.base.localeCompare(b.base,undefined,{numeric:true}));}
+// Shared native/browser order: numeric F-keys; otherwise canonical ASCII ordinal.
+function compareBaseKeys(a,b){if(/^F\d+$/.test(a)&&/^F\d+$/.test(b))return Number(a.slice(1))-Number(b.slice(1));return a<b?-1:a>b?1:0;}
+function layerRows(project,scope,layer){if(!['modeling','sketch'].includes(scope)||!layers.includes(layer))fail('Invalid preview layer.');return project.workspaces[scope].filter(row=>row.key&&keyParts(row.key).layer===layer).map(row=>({...row,base:keyParts(row.key).base})).sort((a,b)=>compareBaseKeys(a.base,b.base));}
 function prepareShortcuts(project,current){
  const maps={};let deferred=0;
  for(const scope of ['modeling','sketch']){
@@ -84,6 +86,6 @@ function prepareShortcuts(project,current){
  }
  return {maps,deferred};
 }
-const api={FORMAT,VERSION,MAX_BYTES,defaults,layers,keyParts,portableTab,validate,parse,create,layerRows,prepareShortcuts,isJournal};
+const api={FORMAT,VERSION,MAX_BYTES,defaults,layers,keyParts,portableTab,validate,parse,create,layerRows,prepareShortcuts,isJournal,compareBaseKeys};
 if(typeof module==='object'&&module.exports)module.exports=api;else root.NX_PORTABLE_PROJECT=api;
 })(typeof window==='object'?window:globalThis);

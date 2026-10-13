@@ -11,7 +11,7 @@ function render(){
  const results=$('advisorResults');results.replaceChildren();
  try{
   const items=window.NX_ADVISOR.search($('advisorQuery').value,$('advisorRelease').value);
-  $('advisorStatus').textContent=items.length?items.length+' possibilities from a six-topic catalog. Relevance is keyword matching, not a guarantee.':'No verified match in this small catalog. Try a more specific goal; no settings were changed.';
+  $('advisorStatus').textContent=items.length?items.length+' possibilities from a '+window.NX_ADVISOR.catalog().length+'-topic catalog. Relevance is keyword matching, not a guarantee.':'No verified match in this small catalog. Try a more specific goal; no settings were changed.';
   for(const item of items){
    const card=document.createElement('article');card.className='advisor-card';card.dataset.adviceId=item.id;
    const tag=document.createElement('p');tag.className='advisor-badge';tag.textContent=item.category+' · '+item.evidenceStatus;
@@ -26,6 +26,6 @@ function render(){
   }
  }catch(error){$('advisorStatus').textContent='Guidance unavailable: '+error.message;}
 }
-for(const [name,query] of [['Dimension zoom','dimensions stay same size when I zoom'],['Fewer ribbons','hide ribbon tabs'],['Sidebar','part navigator sidebar'],['Restore role','restore my role'],['Reference toggle','reference geometry journal toggle'],['Shortcut guide','overlay buddy press shift']]){const button=document.createElement('button');button.type='button';button.className='subtle';button.textContent=name;button.onclick=()=>{$('advisorQuery').value=query;render();};$('advisorExamples').append(button);}
+for(const [name,query] of [['Dimension zoom','dimensions stay same size when I zoom'],['Fewer ribbons','hide ribbon tabs'],['Sidebar','part navigator sidebar'],['Restore role','restore my role'],['Shortcuts only','shortcuts without changing UI'],['Reference toggle','reference geometry journal toggle'],['Shortcut guide','overlay buddy press shift']]){const button=document.createElement('button');button.type='button';button.className='subtle';button.textContent=name;button.onclick=()=>{$('advisorQuery').value=query;render();};$('advisorExamples').append(button);}
 $('advisorForm').onsubmit=event=>{event.preventDefault();render();};render();
 })();
