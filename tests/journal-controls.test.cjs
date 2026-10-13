@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert');
+const src=fs.readFileSync(path.join(__dirname,'../dist/journal-controls.js'),'utf8');
+const logic=src.slice(src.indexOf('const isJournal='),src.indexOf('window.NX_JOURNAL_COMMANDS='));
+const context={};vm.createContext(context);vm.runInContext(logic+';globalThis.api={configure,validateId,isJournal};',context);
+const item={label:'Toggle Create Reference Geometry',id:'NX_SHORTCUT_STUDIO_TOGGLE_REFERENCE_GEOMETRY',key:'1'};
+const userId='USRCMD_TEST_JOURNAL_FIXTURE';
+context.api.configure(item,[item],item.label,userId);assert.equal(item.key,'1');assert.equal(item.id,userId);assert.equal(item.kind,'journal');
+context.api.configure(item,[item],'My journal','USRCMD_OTHER_USER_123');assert.equal(item.key,'1');assert.equal(item.id,'USRCMD_OTHER_USER_123');
+assert.throws(()=>context.api.configure(item,[item,{id:'DUPLICATE'}],item.label,'DUPLICATE'));
+assert(!context.api.validateId('NX_SHORTCUT_STUDIO_TOGGLE_REFERENCE_GEOMETRY'));assert(!context.api.validateId('<invalid>'));
+context.api.configure(item,[item],'Mixed-case custom ID','Custom.Journal:123');assert.equal(item.id,'Custom.Journal:123');
+assert.deepEqual(JSON.parse(JSON.stringify(item)),item);
+console.log('PASS: journal ID/name configuration, shortcut preservation, duplicate validation, and placeholder rejection. MTX writing is covered by safe-role.test.cjs.');

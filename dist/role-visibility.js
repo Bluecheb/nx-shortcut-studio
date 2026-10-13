@@ -4,14 +4,15 @@ const RIBBON_LABELS={
   'rbn_modeling_home.rtb':'Home','rbn_sketch_te_sxline.rtb':'Sketch','rbn_assemblies.rtb':'Assemblies','rbn_analyze.rtb':'Analysis','rbn_application.rtb':'Application','rbn_curves.rtb':'Curve','rbn_display.rtb':'View','rbn_tools.rtb':'Tools','rbn_visualization.rtb':'Visualization','rbn_pmi.rtb':'PMI','RESOURCE_BAR_TAB':'Resource Bar'
 };
 const SIDE_LABELS={ANT:'Assembly Navigator',CNAV:'Constraint Navigator',PARTNT:'Part Navigator',ONT:'Operation Navigator',TCNAV:'Teamcenter Navigator',MOTION_SNT:'Motion Navigator',SEQNT:'Sequence Navigator','UGS::SketchUI::Nav::SketchNavigator':'Sketch Navigator','UGS::CamUI::FeatureNavigator':'Feature Navigator','UGS::CamUI::OperationNavigator':'CAM Operation Navigator','UG/ROLE_SYSTEM_PAL:Roles':'Roles'};
-const roleXml=new DOMParser().parseFromString(window.NX_BASE_ROLE||'<NX_PROFILES/>','application/xml');
+let roleXml=new DOMParser().parseFromString(window.NX_BASE_ROLE||'<NX_PROFILES/>','application/xml');
 const ribbons={};
+const initialRibbonVisibility=window.NX_ROLE_PATCH.visibility(roleXml).ribbon;
 for(const scope of SCOPES){
   const profile=[...roleXml.querySelectorAll('Profile')].find(x=>x.getAttribute('name')===scope);
-  ribbons[scope]=profile?[...profile.querySelectorAll('Layout > ActionLists > ActionList')].filter(x=>x.getAttribute('type')==='ribbontab').map(x=>({id:x.getAttribute('name'),label:ribbonLabel(x.getAttribute('name')),visible:x.querySelector('BarInfo')?.getAttribute('visibility')==='1'})):[];
+  ribbons[scope]=profile?[...profile.querySelectorAll('Layout > ActionLists > ActionList')].filter(x=>Object.hasOwn(initialRibbonVisibility[scope]||{},x.getAttribute('name'))).map(x=>({id:x.getAttribute('name'),label:ribbonLabel(x.getAttribute('name')),visible:initialRibbonVisibility[scope][x.getAttribute('name')]})):[];
 }
 const resourceSetting=roleXml.querySelector('SessionSettings > Setting[name="ResourceBar"]');
-const sideTabs=resourceSetting?[...resourceSetting.children].filter(x=>x.tagName==='Tab').map(x=>({id:x.getAttribute('id'),label:sideLabel(x.getAttribute('id')),element:x})):[];
+let sideTabs=resourceSetting?[...resourceSetting.children].filter(x=>x.tagName==='Tab').map(x=>({id:x.getAttribute('id'),label:sideLabel(x.getAttribute('id')),element:x})):[];
 const defaults={ribbon:{},side:{}};
 for(const scope of SCOPES){
   defaults.ribbon[scope]=Object.fromEntries(ribbons[scope].map(x=>[x.id,x.visible]));
@@ -27,14 +28,24 @@ function cloneDefaults(){return JSON.parse(JSON.stringify(defaults))}
 function loadState(){try{const saved=JSON.parse(localStorage.getItem('nx-role-visibility-v1'));return normalize(saved)}catch{return cloneDefaults()}}
 function normalize(value){const result=cloneDefaults();for(const kind of ['ribbon','side'])for(const scope of SCOPES)for(const id of Object.keys(result[kind][scope]))if(typeof value?.[kind]?.[scope]?.[id]==='boolean')result[kind][scope][id]=value[kind][scope][id];return result}
 function save(){localStorage.setItem('nx-role-visibility-v1',JSON.stringify(state));render()}
+function loadRole(xml){
+  roleXml=xml;
+  const ribbonVisibility=window.NX_ROLE_PATCH.visibility(xml).ribbon;
+  for(const scope of SCOPES){
+    const profile=[...xml.querySelectorAll('Profile')].find(x=>x.getAttribute('name')===scope);
+    ribbons[scope]=profile?[...profile.querySelectorAll('Layout > ActionLists > ActionList[type="ribbontab"]')].filter(x=>Object.hasOwn(ribbonVisibility[scope]||{},x.getAttribute('name'))).map(x=>({id:x.getAttribute('name'),label:ribbonLabel(x.getAttribute('name')),visible:ribbonVisibility[scope][x.getAttribute('name')]})):[];
+    defaults.ribbon[scope]=Object.fromEntries(ribbons[scope].map(x=>[x.id,x.visible]));
+  }
+  const resource=xml.querySelector('SessionSettings > Setting[name="ResourceBar"]');
+  sideTabs=resource?[...resource.children].filter(x=>x.tagName==='Tab').map(x=>({id:x.getAttribute('id'),label:sideLabel(x.getAttribute('id')),element:x})):[];
+  for(const scope of SCOPES)defaults.side[scope]=Object.fromEntries(sideTabs.filter(t=>[...t.element.children].some(x=>x.tagName==='State'&&x.getAttribute('app')===scope&&x.hasAttribute('suppressed'))).map(t=>[t.id,sideDefault(t.element,scope)]));
+  state=cloneDefaults();save();
+}
 function currentScope(){return document.getElementById('visibilityScope').value}
-function renderKind(kind){const scope=currentScope();const source=kind==='ribbon'?ribbons[scope]:sideTabs;const catalog=[...source].sort((a,b)=>Number(/not verified|not identified/.test(tabDescription(kind,a.id)))-Number(/not verified|not identified/.test(tabDescription(kind,b.id)))||a.label.localeCompare(b.label));const query=document.getElementById(kind+'VisibilitySearch').value.trim().toLowerCase();const box=document.getElementById(kind+'Visibility');box.replaceChildren();for(const item of catalog){const description=tabDescription(kind,item.id);const searchable=(item.label+' '+description+' '+item.id).toLowerCase();if(query&&!searchable.includes(query))continue;const row=document.createElement('label');row.className='visibility-item';row.title='NX identifier: '+item.id;const check=document.createElement('input');check.type='checkbox';check.checked=state[kind][scope][item.id]!==false;check.onchange=()=>{state[kind][scope][item.id]=check.checked;save()};const text=document.createElement('span');const strong=document.createElement('strong');strong.textContent=item.label;const small=document.createElement('small');small.textContent=description;text.append(strong,small);row.append(check,text);box.append(row)}const total=catalog.length;const allShown=Object.values(state[kind][scope]).filter(Boolean).length;document.getElementById(kind+'VisibilityCount').textContent=allShown+' of '+total+' visible'}
+function renderKind(kind){const scope=currentScope();const source=kind==='ribbon'?ribbons[scope]:sideTabs.filter(x=>Object.hasOwn(state.side[scope],x.id));const catalog=[...source].sort((a,b)=>Number(/not verified|not identified/.test(tabDescription(kind,a.id)))-Number(/not verified|not identified/.test(tabDescription(kind,b.id)))||a.label.localeCompare(b.label));const query=document.getElementById(kind+'VisibilitySearch').value.trim().toLowerCase();const box=document.getElementById(kind+'Visibility');box.replaceChildren();for(const item of catalog){const description=tabDescription(kind,item.id);const searchable=(item.label+' '+description+' '+item.id).toLowerCase();if(query&&!searchable.includes(query))continue;const row=document.createElement('label');row.className='visibility-item';row.title='NX identifier: '+item.id;const check=document.createElement('input');check.type='checkbox';check.checked=state[kind][scope][item.id]!==false;check.onchange=()=>{state[kind][scope][item.id]=check.checked;save()};const text=document.createElement('span');const strong=document.createElement('strong');strong.textContent=item.label;const small=document.createElement('small');small.textContent=description;text.append(strong,small);row.append(check,text);box.append(row)}const total=catalog.length;const allShown=Object.values(state[kind][scope]).filter(Boolean).length;document.getElementById(kind+'VisibilityCount').textContent=allShown+' of '+total+' visible'}
 function render(){renderKind('ribbon');renderKind('side')}
 function setAll(kind,action){const scope=currentScope();if(action==='reset')state[kind][scope]={...defaults[kind][scope]};else for(const id of Object.keys(state[kind][scope]))state[kind][scope][id]=action==='show';save()}
-function applyToXml(xml){
-  for(const scope of SCOPES){const profile=[...xml.querySelectorAll('Profile')].find(x=>x.getAttribute('name')===scope);if(profile)for(const actionList of profile.querySelectorAll('Layout > ActionLists > ActionList[type="ribbontab"]')){const id=actionList.getAttribute('name');const visible=state.ribbon[scope]?.[id];if(typeof visible==='boolean')actionList.querySelector('BarInfo')?.setAttribute('visibility',visible?'1':'0')}}
-  for(const setting of xml.querySelectorAll('SessionSettings > Setting[name="ResourceBar"], TouchSessionSettings > Setting[name="ResourceBar"]'))for(const tab of [...setting.children].filter(x=>x.tagName==='Tab'))for(const scope of SCOPES){const visible=state.side[scope]?.[tab.getAttribute('id')];if(typeof visible!=='boolean')continue;let target=[...tab.children].find(x=>x.tagName==='State'&&x.getAttribute('app')===scope);if(!target){target=xml.createElement('State');target.setAttribute('app',scope);target.setAttribute('expanded','0');target.setAttribute('width','-1');tab.append(target)}target.setAttribute('suppressed',visible?'0':'1')}
-}
+function applyToXml(){throw Error('Use the reviewed baseline-role export.');}
 document.getElementById('visibilityScope').onchange=render;
 document.getElementById('ribbonVisibilitySearch').oninput=()=>renderKind('ribbon');
 document.getElementById('sideVisibilitySearch').oninput=()=>renderKind('side');
@@ -50,6 +61,6 @@ function autofill(use){
     for(const id of Object.keys(state.side[scope]))state.side[scope][id]=id==='PARTNT'||/history\.pax$/i.test(id)||id==='UG/ROLE_SYSTEM_PAL:Roles'||(scope==='UG_APP_SKETCH_TASK'&&id==='UGS::SketchUI::Nav::SketchNavigator')||(['assemblies','manufacturing'].includes(use)&&['ANT','CNAV'].includes(id))||(use==='surfacing'&&id==='UGS::ToolingUI::ReuseLibraryNavigatorFrame')||(use==='manufacturing'&&['ONT','UGS::CamUI::OperationNavigator','UGS::CamUI::FeatureNavigator'].includes(id))||(use==='documentation'&&['UGS::MBD::PMIQueryUI::Frame','UGS::MBD::UI::DataBrowser::Frame'].includes(id));
   }save();
 }
-window.NX_ROLE_VISIBILITY={getState:()=>JSON.parse(JSON.stringify(state)),importState:value=>{state=normalize(value);save()},applyToXml,autofill,reset:()=>{state=cloneDefaults();save()}};
+window.NX_ROLE_VISIBILITY={getState:()=>JSON.parse(JSON.stringify(state)),loadRole,importState:value=>{state=normalize(value);save()},applyToXml,autofill,reset:()=>{state=cloneDefaults();save()}};
 render();
 })();

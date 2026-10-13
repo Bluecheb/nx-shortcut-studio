@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sanitized shape observed in a native NX 2606 export after enabling Tools.
+     No user identifiers, journal paths, or personal settings are included. -->
+<NX_PROFILES name="native_regression" title="Native docked ribbon regression">
+  <Profile name="UG_APP_SKETCH_TASK">
+    <Layout><ActionLists>
+      <ActionList name="rbn_tools.rtb" type="ribbontab">
+        <BarInfo position="top" visibility="0">
+          <FloatInfo width="0" x="300" y="200"/>
+          <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
+        </BarInfo>
+      </ActionList>
+    </ActionLists></Layout>
+  </Profile>
+  <Repository><Content mode="create"><Actions>
+    <Action name="USRCMD_NATIVE_FIXTURE" type="usrcmd" message="Journal definition retained"><ActionData command="fixture.vb" type="0"/></Action>
+  </Actions></Content></Repository>
+  <SessionSettings><Setting name="ResourceBar" width="317"><Tab id="HISTORY_FIXTURE"><State app="UG_APP_SKETCH_TASK" suppressed="0" expanded="0" width="-1"/></Tab></Setting></SessionSettings>
+</NX_PROFILES>

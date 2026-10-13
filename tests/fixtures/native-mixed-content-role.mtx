@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Native NX 2606 structure: command definitions and shortcut overrides are separate.
+     Fixture identifiers and action data are synthetic; no personal data. -->
+<NX_PROFILES name="native_mixed_fixture" title="Native mixed content regression">
+  <Profile name="UG_APP_MODELING"><Layout><ActionLists/></Layout></Profile>
+  <Profile name="UG_APP_SKETCH_TASK"><Content mode="create"><Actions>
+    <Action name="USRCMD_SKETCH_FIXTURE" type="usrcmd"><ActionData command="fixture.vb" type="0"/></Action>
+  </Actions></Content><Content mode="edit"><Actions>
+    <Action name="UG_SKETCH_LINE_BY_TWO_POINTS" type="button"><Accelerators><Accel name="L"/></Accelerators></Action>
+  </Actions></Content></Profile>
+  <Repository>
+    <Content mode="create"><Actions>
+      <Action name="USRCMD_MIXED_FIXTURE" type="usrcmd" message="Retain this definition"><ActionData command="fixture.vb" type="0"/></Action>
+    </Actions></Content>
+    <Content mode="edit"><Actions>
+      <Action name="UG_VIEW_FIT" type="button"><Accelerators><Accel name="Ctrl+Alt+F12"/></Accelerators></Action>
+    </Actions></Content>
+  </Repository>
+  <SessionSettings><Setting name="IconSize" bitmap="37"/><Setting name="ResourceBar" width="317"/></SessionSettings>
+</NX_PROFILES>
