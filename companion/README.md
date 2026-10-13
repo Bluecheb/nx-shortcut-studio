@@ -34,3 +34,9 @@ project is supplied; returned snapshots are isolated from controller state.
 Next: port this tested contract into a selected native view implementation and
 verify process gating, non-activation, click-through, monitor/DPI placement, and
 minimize/restart behavior. No native build or runtime capability is claimed.
+
+An unbuilt WPF/.NET 10 source candidate now lives in windows/. Its management
+window, strict portable-file reader, exact-layer controller, and foreground-gated
+modifier adapter are authored but not compiled or run. Eight shared vectors pass
+on the JS side; a console C# test project is provided for the SDK-enabled build.
+See windows/README.md for privacy boundaries and remaining native acceptance.

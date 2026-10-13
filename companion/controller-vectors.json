@@ -1,0 +1,13 @@
+{
+ "project":{"format":"nx-studio-project","schemaVersion":1,"nxVersion":"2606","workspaces":{"modeling":[{"label":"Fit fixture","key":"Ctrl+F","kind":"builtin","commandId":"UG_VIEW_FIT"},{"label":"Top fixture","key":"Shift+T","kind":"builtin","commandId":"UG_TEST_TOP"}],"sketch":[]},"tabs":{"ribbon":{},"side":{}},"overlay":{"position":"top-right","opacity":0.9,"fontSize":16,"showDelayMs":120,"hideDelayMs":180}},
+ "samples":[
+  {"at":0,"foreground":{"verifiedNx":true,"minimized":false},"modifiers":{"ctrl":true,"alt":false,"shift":false},"workspace":"modeling","paused":false,"expected":{"status":"waiting","reason":"show-delay","count":0,"layer":"ctrl","showAt":120}},
+  {"at":120,"foreground":{"verifiedNx":true,"minimized":false},"modifiers":{"ctrl":true,"alt":false,"shift":false},"workspace":"modeling","paused":false,"expected":{"status":"visible","reason":"ready","count":1,"layer":"ctrl","showAt":120}},
+  {"at":121,"foreground":{"verifiedNx":true,"minimized":false},"modifiers":{"ctrl":false,"alt":false,"shift":true},"workspace":"modeling","paused":false,"expected":{"status":"waiting","reason":"show-delay","count":0,"layer":"shift","showAt":241}},
+  {"at":241,"foreground":{"verifiedNx":true,"minimized":false},"modifiers":{"ctrl":false,"alt":false,"shift":true},"workspace":"modeling","paused":false,"expected":{"status":"visible","reason":"ready","count":1,"layer":"shift","showAt":241}},
+  {"at":242,"foreground":{"verifiedNx":false,"minimized":false},"modifiers":{"ctrl":false,"alt":false,"shift":true},"workspace":"modeling","paused":false,"expected":{"status":"hidden","reason":"not-nx-foreground","count":0,"layer":null,"showAt":null}},
+  {"at":243,"foreground":{"verifiedNx":true,"minimized":false},"modifiers":{"ctrl":true,"alt":false,"shift":false},"workspace":"modeling","paused":false,"expected":{"status":"waiting","reason":"show-delay","count":0,"layer":"ctrl","showAt":363}},
+  {"at":364,"foreground":{"verifiedNx":true,"minimized":true},"modifiers":{"ctrl":true,"alt":false,"shift":false},"workspace":"modeling","paused":false,"expected":{"status":"hidden","reason":"nx-minimized","count":0,"layer":null,"showAt":null}},
+  {"at":365,"foreground":{"verifiedNx":true,"minimized":false},"modifiers":{"ctrl":true,"alt":false,"shift":false},"workspace":"modeling","paused":true,"expected":{"status":"hidden","reason":"paused","count":0,"layer":null,"showAt":null}}
+ ]
+}

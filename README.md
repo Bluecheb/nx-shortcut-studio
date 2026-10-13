@@ -12,7 +12,8 @@ A browser-based shortcut and role editor for Siemens Designcenter NX 2606.
 - Merge ribbon and sidebar settings from MTX roles while retaining the selected base role's shortcuts and unrelated settings.
 - Upload your own NX baseline, review supported changes, and export a patched MTX while preserving unrelated settings and custom command definitions. No-edit downloads return the original text.
 - Portable `.nxstudio.json` presets omit personal journal IDs and role/session state; imported journals need each user's own registration.
-- Browser-only Overlay Buddy preview shows exact Ctrl/Alt/Shift layers. A separate pure display controller is tested; a native Windows overlay is not yet implemented.
+- Browser-only Overlay Buddy preview shows exact Ctrl/Alt/Shift layers. A tested pure display controller and an unbuilt WPF/.NET 10 Windows source candidate are included. No working native overlay binary is shipped.
+- UI/UX Advisor matches plain-language goals against a six-topic local evidence catalog, with steps, risks, rollback, sources and release limitations. It is keyword search, not remote AI, automatic changes or exhaustive NX advice.
 
 Your settings stay in your own browser. Role files selected for merging are processed locally, not uploaded to a server.
 
@@ -37,5 +38,14 @@ The `dist` folder contains the authored static HTML, CSS, and JavaScript, a comm
 Seven check suites passed, including 45 role XML checks, 32 portable-project checks, 36 pure display-controller checks, and headless browser upload/download/merge/mobile/local-file flows. Native NX 2606 tests covered generated shortcut and tab restart persistence, visual dimension/preference preservation, and original-role restoration. This is scoped evidence, not certification for every release or layout, or proof of the original dimension symptom's cause. See [portable format](PORTABLE_PROJECT_FORMAT.md) and [companion scope](companion/README.md).
 
 Pure checks run with Node; browser tests need Playwright and an installed Edge (or NX_TEST_BROWSER executable). No browser, SDK, NX libraries or binary companion is bundled.
+
+Advisor checks: `node tests/advisor.test.cjs` and `node tests/advisor-browser.test.cjs`.
+Native source review/JS shared vectors: `node tests/companion-source.test.cjs`.
+Those do not compile or validate the Windows runtime. See
+[Advisor evidence](ADVISOR_EVIDENCE.md) and [native build requirements](companion/windows/README.md).
+The native candidate starts paused, uses a user-selected NX executable and portable
+project, polls only modifiers, and has no NX writes or command execution. A supported
+.NET 10 SDK, C# core tests/build and actual foreground/click-through/DPI acceptance
+are still required before offering it as a working overlay.
 
 This is an independent utility, not an official Siemens product. No NX installation, libraries, or license is included.

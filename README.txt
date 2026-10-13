@@ -49,3 +49,12 @@ review the JSON before public sharing. No role, session state, or file-backed
 palette path is included in the portable format. The desktop Overlay Buddy is
 not yet built; only the browser preview and separate pure display controller
 are implemented. See companion/README.md and ROLE_EXPORT_RELEASE_NOTES.md.
+
+UI/UX Advisor is a small browser-local evidence catalog: describe a goal to find
+matching guidance, steps, risks, rollback and sources. It is keyword search, not
+remote AI or exhaustive NX advice, and never applies changes. Other NX releases
+get an explicit compatibility warning. See ADVISOR_EVIDENCE.md.
+
+Native Buddy Windows source is in companion/windows, clearly unbuilt/unverified.
+No executable is bundled. A supported .NET 10 SDK, compilation and native focus,
+click-through/DPI tests are required before offering a working desktop overlay.

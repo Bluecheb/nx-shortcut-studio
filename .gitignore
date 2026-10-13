@@ -7,3 +7,5 @@
 *.zip
 Thumbs.db
 .DS_Store
+companion/windows/**/bin/
+companion/windows/**/obj/

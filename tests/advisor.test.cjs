@@ -1,0 +1,15 @@
+'use strict';
+const assert=require('node:assert/strict'),api=require('../dist/advisor-catalog.js');
+let checks=0;const check=(name,fn)=>{fn();checks++;};
+for(const [query,id] of [['dimensions stay same size when I zoom','dimension-height'],['hide ribbon tabs','ribbon-tabs'],['part navigator sidebar','sidebar-tabs'],['restore my role','role-recovery'],['reference geometry journal toggle','reference-journal'],['overlay buddy press shift','overlay-buddy'],['dimentions size zoom','dimension-height']])check(query,()=>assert.equal(api.search(query)[0].id,id));
+check('small empty catalog',()=>assert.equal(api.search('').length,6));
+check('unknown not guessed',()=>assert.equal(api.search('thermodynamic turbocharger simulation meshing').length,0));
+check('future release not verified',()=>{for(const row of api.search('', '2706')){assert.equal(row.releaseMatches,false);assert(row.evidenceStatus.startsWith('Not verified'));}});
+check('bounded input',()=>assert.throws(()=>api.search('a'.repeat(1001))));
+check('invalid release',()=>assert.throws(()=>api.search('','NX 2606')));
+check('invalid query',()=>assert.throws(()=>api.search(null)));
+check('isolated result',()=>{api.search('')[0].steps.push('bad');assert(!api.catalog()[0].steps.includes('bad'));});
+check('stable ranking',()=>assert.deepEqual(api.search('role tabs'),api.search('role tabs')));
+check('evidence schema',()=>{for(const row of api.catalog()){for(const key of ['effect','scope','risk','rollback','limits'])assert(row[key].length>20);assert(row.steps.length>=2);assert(row.sources.length);for(const source of row.sources){if(source.url)assert.equal(new URL(source.url).protocol,'https:');else assert(source.note);}assert.equal(row.release,'2606');}});
+check('HTML-like query is only data',()=>assert.equal(api.search('<img src=x onerror=alert(1)>').length,0));
+console.log('PASS: '+checks+' Advisor ranking/evidence/version/privacy boundary checks.');
